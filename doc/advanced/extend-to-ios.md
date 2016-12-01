@@ -19,7 +19,7 @@ customized must implement WXModuleProtocol
       
     @implementation WXEventModule
     @synthesize weexInstance;
-       WX_EXPORT_METHOD(@selector(openURL:callback))
+       WX_EXPORT_METHOD(@selector(openURL:callback:))
     
     - (void)openURL:(NSString *)url callback:(WXModuleCallback)callback
     {
